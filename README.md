@@ -1,4 +1,6 @@
-# EECS E6893 Big Data Analytics Final Project: Credit Card Fraud detection via Cluster based Scoring & Anomaly Detection
+# EECS E6893 Big Data Analytics Final Project 
+
+## Credit Card Fraud detection via Cluster based Scoring & Anomaly Detection
 
 Team Members: Vedant Kumar (vrk2109), Siddharth Nijhawan (sn2951), Sushant Tiwari (st3425)
 
