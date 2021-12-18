@@ -8,9 +8,9 @@ The repository contains 4 jupyter notebooks containing end-to-end pipelines of i
 
 Dataset is available here: https://www.kaggle.com/mlg-ulb/creditcardfraud
 
-1. data_analysis.ipynb - performs initial data analysis by generating statistical metrics for each feature dimension like mean, std, min-max values, etc. Notebook also generates histograms for each feature vector and plots correlation heatmap as well
+1. **data_analysis.ipynb** - performs initial data analysis by generating statistical metrics for each feature dimension like mean, std, min-max values, etc. Notebook also generates histograms for each feature vector and plots correlation heatmap as well
 
-2. kmeans.ipynb - runs Kmeans clustering on the given dataset to generate consistency scores using the following methodology:
+2. **kmeans.ipynb** - runs Kmeans clustering on the given dataset to generate consistency scores using the following methodology:
 
 - Run K-means algorithm 10 times.
 - Every run takes bootstrapped samples which are normalised between 0 and 1.
@@ -18,7 +18,7 @@ Dataset is available here: https://www.kaggle.com/mlg-ulb/creditcardfraud
 - Finally, a weighted score for the data point for each combination of the assigned cluster is computed by calculating dot products of the C centroids.
 - Precision-Recall Curves, ROC Curves, and AUPRC, AUROC, Scatter Plots are generated
 
-3. isolation_forest.ipynb - runs Isolation Forest algorithm on the given dataset to generate anomaly scores using the following methodology:
+3. **isolation_forest.ipynb** - runs Isolation Forest algorithm on the given dataset to generate anomaly scores using the following methodology:
 
 - Isolation Forest algorithm is run 10 times.
 - Every run takes bootstrapped samples with no. of trees = 100
@@ -27,7 +27,7 @@ Dataset is available here: https://www.kaggle.com/mlg-ulb/creditcardfraud
 - Outlier fraction (ratio of fraudulent to non-fraudulent transactions) is passed to the isolation forest class.
 - Precision-Recall Curves, ROC Curves, and AUPRC, AUROC, Scatter Plots are generated.
 
-4. local_outlier_factor.ipynb - runs Local Outlier Factor algorithm on the given dataset to generate anomaly scores using the following methodology:
+4. **local_outlier_factor.ipynb** - runs Local Outlier Factor algorithm on the given dataset to generate anomaly scores using the following methodology:
 
 - Local Outlier Factor algorithm is run 10 times .
 - Computes LOF(X) = (sum of avg. LRD of X’s neighbors)/ LRD(X)
